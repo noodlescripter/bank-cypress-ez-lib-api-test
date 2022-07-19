@@ -14,9 +14,11 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "cypress:open": "cypress open",
     "dev": "npm install & npm start",
-    "test": "npx cypress run --spec 'cypress/e2e/cypress-ez-lib/suite/runner.cy.js'"
+    "test": "npx cypress run --spec 'cypress/e2e/cypress-ez-lib/suite/runner.cy.js'",
+    "testOnChrome": "npx cypress run --browser chrome --spec 'cypress/e2e/cypress-ez-lib/suite/runner.cy.js'"
   },
   "browserslist": {
     "production": [
